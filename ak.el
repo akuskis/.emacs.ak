@@ -1,6 +1,7 @@
 (load "~/.emacs.ak/fill-column-indicator.el")
 (load "~/.emacs.ak/ak-color.el")
 (load "~/.emacs.ak/ak-finder.el")
+(load "~/.emacs.ak/ak-skeleton.el")
 
 ;; use anly UTF-8
 (set-language-environment 'UTF-8)
@@ -54,3 +55,5 @@
 
 ;; HOOKS
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
+(add-hook 'before-save-hook 'copyright-update)
+(add-hook 'find-file-hook 'ak-auto-complete)

@@ -1,3 +1,4 @@
 Add following code to ~/.emacs :
 
+  (set 'auto-insert-copyright "OWNER <contacts>")
   (load "~/.emacs.ak/ak.el")
