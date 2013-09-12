@@ -1,4 +1,5 @@
-Add following code to ~/.emacs :
+Add following code to emacs configuration file (~/.emacs) :
 
-  (set 'auto-insert-copyright "OWNER <contacts>")
-  (load "~/.emacs.ak/ak.el")
+  (set 'auto-insert-copyright "OWNER")
+  (set 'path-to-ak-dir "PATH_TO_DIRECTORY/.emacs.ak")
+  (load (concat path-to-ak-dir "/ak.el"))

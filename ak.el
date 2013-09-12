@@ -1,9 +1,9 @@
-(load "~/.emacs.ak/fill-column-indicator.el")
-(load "~/.emacs.ak/ak-color.el")
-(load "~/.emacs.ak/ak-finder.el")
-(load "~/.emacs.ak/ak-skeleton.el")
+(load (concat path-to-ak-dir "/fill-column-indicator.el"))
+(load (concat path-to-ak-dir "/ak-color.el"))
+(load (concat path-to-ak-dir "/ak-finder.el"))
+(load (concat path-to-ak-dir "/ak-skeleton.el"))
 
-;; use anly UTF-8
+;; set UTF-8
 (set-language-environment 'UTF-8)
 
 ;; change backup directory
